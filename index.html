@@ -16,8 +16,14 @@
 
     <nav>
         <ul>
-            <li><a href="/html/" alt="link1">HTML</a></li>
-            <li><a href="/css/" alt="link2">CSS</a></li>
+            <li><a href="/html/" alt="link1" target="_blank">HTML</a>
+                <ul>
+                    <li><a href="/section1/" alt="link3" target="_self">section1</a></li>
+                    <li><a href="/section2/" alt="link4" target="_parent">section2</a></li>
+                   
+                </ul>
+            </li>
+            <li><a href="/css/" alt="link2" target="_top">CSS</a></li>
         </ul>
     </nav>
 
@@ -66,11 +72,13 @@ You can use HTML files to improve code reusability by using techniques such as t
              </p>
             <img src="/Simple-HTML-Page/img/pic1.jpg" alt="programming">
             <div>
+                <h3>audio</h3>
                 <audio controls>
                     <source src="/Simple-HTML-Page/audio/Ringtone35.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
             </div>
+            <h3>video</h3>
             <video controls>
                 <source src="/Simple-HTML-Page/video/vid1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -80,7 +88,7 @@ You can use HTML files to improve code reusability by using techniques such as t
     </main>
 
     <footer>
-        <a href="https://www.w3schools.com/html/html_css.asp" alt="link3">
+        <a href="https://www.w3schools.com/html/html_css.asp" alt="link3" target="_blank">
             About Us
           </a>
          
